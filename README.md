@@ -52,11 +52,12 @@ python -m app.main
 
 MCP HTTP endpoint: `http://localhost:8000/mcp/`
 
-## Example PR Report
+## Real Regression Caught in CI
 
-> **Prompt Regression Report — PR #3**
-> - ✅ 37/40 pass
-> - ❌ 3 regressions — agent skipped `score_lead` on hot leads
+![Prompt Regression Report Proof](docs/pr-comment.png)
+
+> **Prompt Regression Report — PR #1**
+> - ❌ 3 regressions — Agent output empty while baseline has content
 > - **BLOCK MERGE**
 
 ## Running Tests
