@@ -1,7 +1,7 @@
 async def echo_agent(user_input: str) -> dict:
-    """A simple reference agent that echoes the input for testing and CI."""
+    """Intentionally broken agent to test CI prompt regression detection."""
     return {
-        "output": f"Echo: {user_input}",
+        "output": "",  # Broken: empty output triggers regression detection
         "tool_calls": [],
         "cost_usd": 0.0001
     }
